@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Amir/AndroidStudioProjects/SkypeClone/app/src/main/res/drawable/btn_design.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/Amir/AndroidStudioProjects/SkypeClone/app/src/main/res/drawable/code_layout_design.xml" value="0.15462962962962962" />
         <entry key="..\:/Users/Amir/AndroidStudioProjects/SkypeClone/app/src/main/res/drawable/edit_box_design.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/Amir/AndroidStudioProjects/SkypeClone/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
         <entry key="..\:/Users/Amir/AndroidStudioProjects/SkypeClone/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Amir/AndroidStudioProjects/SkypeClone/app/src/main/res/layout/activity_registration.xml" value="0.22" />
+        <entry key="..\:/Users/Amir/AndroidStudioProjects/SkypeClone/app/src/main/res/layout/activity_splash.xml" value="0.22" />
       </map>
     </option>
   </component>

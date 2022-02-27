@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#292D36"
-    tools:context=".MainActivity">
+    tools:context=".RegistrationActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -14,12 +14,12 @@
         android:layout_marginTop="60dp"
         android:src="@drawable/logo"
         />
-    
-    
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="WELCOME BACK"
+        android:text="WELCOME"
         android:textColor="#00aff0"
         android:layout_marginTop="30dp"
         android:textSize="25sp"
@@ -37,25 +37,42 @@
         android:paddingRight="60dp"
         >
 
-   <EditText
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:hint="Email"
-       android:id="@+id/email_login"
-       android:drawablePadding="10dp"
-       android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
-       android:textColorHint="#fff"
-       android:textColor="#fff"
-       android:background="@drawable/edit_box_design"
-       android:padding="12dp"
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/name_register"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:background="@drawable/edit_box_design"
+            android:padding="12dp"
 
-    />
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/email_register"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:background="@drawable/edit_box_design"
+            android:layout_marginTop="14dp"
+            android:padding="12dp"
+
+            />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-            android:id="@+id/password_login"
+            android:id="@+id/password_register"
             android:inputType="textPassword"
             android:drawableLeft="@drawable/ic_baseline_lock_24"
             android:drawablePadding="10dp"
@@ -70,8 +87,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Login"
-            android:id="@+id/login_btn"
+            android:hint="Register"
+            android:id="@+id/register_btn"
             android:textColorHint="#fff"
             android:layout_marginTop="20dp"
             android:background="@drawable/btn_design"
@@ -88,18 +105,18 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account?"
-                android:textColor="#fff"
                 android:layout_marginLeft="40dp"
+                android:text="Already have an account?"
+                android:textColor="#fff"
 
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="190dp"
-                android:text="Register"
-                android:id="@+id/register_link"
+                android:layout_marginLeft="210dp"
+                android:text="Login"
+                android:id="@+id/login_link"
                 android:textColor="#00aff0" />
 
         </RelativeLayout>
