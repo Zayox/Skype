@@ -41,7 +41,7 @@
                 android:padding="10dp"
                 android:background="@drawable/code_layout_design"
                 android:hint="Meeting code"
-                android:id="@+id/btn_meetingCode"
+                android:id="@+id/meetingCode"
                 android:textAlignment="center"
                 />
 
